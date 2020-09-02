@@ -1,10 +1,19 @@
 /* *********************************************** Css For All Pages (Body)******************************************************* */
+:root{
+    --main-bg:hsl(204,64%,94%);
+    --center-bg:#2980b9;
+    --bg:71 ,81, 82;
+    --center-boxshadow:0 1.4rem 2.8rem rgba(0,0,0,0.25),0 1rem 1rem rgba(0,0,0,0.22);
+    --ballshadow:0 1.4rem 2.8rem rgba(0,0,0,0.25), 0 1rem 1rem rgba(0,0,0,0.22);
+}
+ 
 *{
     margin:0px;
     padding-top: 0px;
     padding-left: 1px; 
     padding-right: 1px; 
-}
+} 
+
 /*  *******************************************Css for Home Page ********************************************************************* */
 /* For Navbar Style */
 .navbar a{
@@ -48,3 +57,7 @@
     transform: scale(1.1);
     cursor: zoom-in;
 }
+
+/* Aniamtion */
+
+
